@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .tabi{
+      display: flex;
+    flex-wrap: wrap;
+    gap:40px;
+    justify-content: center;
+    }
+
+    .card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden; /* 内容がはみ出ないように */
+    width: 200px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    }
+
+    .card img {
+    width: 100%; /* 幅を100%に */
+    height: auto;
+    }
+
+    .card h3 {
+    margin: 10px 0; /* タイトルの上下の余白 */
+    text-shadow: 1px 3px 3px #a6b7ed;
+    }
+
+    .card p {
+    padding: 0 10px; /* 説明文の左右の余白 */
+    }
+
+    .heading-lv4 {
+      font-size: 32px;
+      font-style: italic;
+      margin-top: 50px;
+    }
+
+  </style>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="wrap">
+  <div class="content">
+    <h1 class="heading-lv1 text-center">Onsen　Trip</h1>
+  <div class="tabi">
+    <div class="card">
+      <img src="./img/image0.jpeg">
+      <h3>洞爺湖　湖の栖</h3>
+      <p>洞爺湖のハイクラス宿</p>
+      <p>GWに親友と行ってきました。</p>
+    </div>
+    <div class="card">
+      <img src="./img/image2.jpeg">
+      <h3>客室露天風呂</h3>
+      <p>目の前には洞爺湖が一面に広がります。</p>
+    </div>
+    <div class="card">
+      <img src="./img/image1.jpeg" class="responsive">
+      <h3>夕食</h3>
+      <p>北海道の幸を感じられる豪華なハーフビュッフェ</p>
+      <p>でした</p>
+    </div>
+  </div>
+
+    <h1 class="heading-lv4 text-center">Tokyo　Trip</h1>
+  <div class="tabi">
+    <div class="card">
+      <img src="./img/image3.jpeg" class="responsive">
+      <h3>「牛牛」の</h3>
+      <h3>「シンデレラ寿司」</h3>
+      <p>西麻布にある芸能人御用達のお店。迫力満載</p>
+      <p>でした。</p>
+    </div>
+    <div class="card">
+      <img src="./img/image4.jpeg">
+      <h3>渋谷スカイ</h3>
+      <p>上空229mから見る東京の夜景は神秘的でした。</p>
+    </div>
+  </div>
+
+    <h1 class="heading-lv4 text-center">Fukuoka　Trip</h1>
+  <div class="tabi">
+  <div class="card">
+    <img src="./img/image6.jpeg">
+    <h3>博多の名物、ラーメンShinShin</h3>
+    <p>細麵の本場博多豚骨、替え玉しました</p>
+  </div>
+  <div class="card">
+    <img src="./img/image7.jpeg">
+    <h3>博多の名所</h3>
+    <h3>シーサイドももち</h3>
+    <p>絶景。なぜ男３人なのだろうか、、</p>
+  </div>
+  <div class="card">
+    <img src="./img/image8.jpeg">
+    <h3>中州</h3>
+    <p>歩いているだけで楽しい。安くて美味い。</p>
+  </div>
+  </div>
+  <p class="text text-center"><a href="./index.html">トップページへ</a></p>
+</body>
+</html>
